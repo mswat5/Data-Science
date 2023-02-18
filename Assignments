@@ -1,1 +1,106 @@
 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "79c171d7-b85c-4aba-b593-dda6c201d3fc",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "# Web Api Assignment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1fe5a7b6-5a33-4ce2-a5ff-9ed8f04abb2b",
+   "metadata": {},
+   "source": [
+    "1)What is an API? Give an example, where an API is used in real life.\n",
+    "\n",
+    " It is a mechanism that enable two software components to communicate with each other using a set of definitions and protocols\n",
+    "example: the weather bureau's software system contains daily weather data. The weather app on our phone \"talks\" to this system via APIs and shows us daily weather updates on our phone."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "57a627df-5ce4-4e49-bcce-e33523fe597d",
+   "metadata": {},
+   "source": [
+    "(2) Give advantages and disadvantages of using API.\n",
+    "Advantages:\n",
+    "* Applications: Access to APIs ensures more flexibility in information-transfer processes.\n",
+    "* Reach: APIs let you create layers in apps in order to distribute information to different audiences.\n",
+    "* Customisation: it can serve as a solution to create different experiences for users, letting protocols, functions, and commands be adapted according to specific demands.\n",
+    "* Efficiency: When you have content that is automatically published and made available on different channels simultaneously, APIs allow for more efficient data distribution.\n",
+    "* Adaptability: One of the greatest benefits of APIs is the ability it has to adapt to changes through data migration and flexibility of services.\n",
+    "Disadvantages:\n",
+    " -As a single point of entry, an API is a gateway and can become a hacker's primary target. Once the API is compromised, all other applications and systems become vulnerable.\n",
+    "- APIs are vulnerable to man-in-the-middle attacks, CSRF attacks, XSS attacks, SQL injection, and DDoS attacks."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "15364516-591b-4f1a-8423-b42b23fe1c88",
+   "metadata": {},
+   "source": [
+    "3)What is a Web API? Differentiate between API and Web API.\n",
+    "Web api is a software application that allows two different applications or machines to interact with each other without any user interference\n",
+    "Both APIs and web services are technologies that enable the transfer of data between separate software applications. API is an interface that exposes an application's data to outside software, whereas web applications are one type of API with stricter requirements. These requirements include network communication, SOAP as the primary protocol, and less accessibility for the public. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "48455e0f-a51d-4003-854d-cc57518e31e3",
+   "metadata": {},
+   "source": [
+    "4)Explain REST and SOAP Architecture. Mention shortcomings of SOAP.\n",
+    "SOAP (Simple Object Access Protocol) is a standards-based web services access protocol that has been around for a long time. Originally developed by Microsoft, SOAP isn’t as simple as the acronym would suggest.\n",
+    "REST (Representational State Transfer) is  another standard, made in response to SOAP’s shortcomings. It seeks to fix the problems with SOAP and provide a simpler method of accessing web services. \n",
+    "SOAP \n",
+    "* Uses more bandwidth\n",
+    "* Highly complex\n",
+    " * No variety of data formats\n",
+    " * API calls are not cached"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ced35534-42da-469f-8a30-72eae38b8386",
+   "metadata": {},
+   "source": [
+    "5)Differentiate between REST and SOAP.\n",
+    "REST is a set of guidelines that offers flexible implementation, whereas SOAP is a protocol with specific requirements like XML messaging.these are lightweight, making them ideal for newer contexts like IoT, mobile application development, and server less computing SOAP web services offer built-in security and transaction compliance that align with many enterprise needs, but that also makes them heavier. Additionally, many public APIs, like the Google Maps API, follow the REST guidelines.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d4f5ecfd-c47e-4814-ba37-6cee00716112",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
